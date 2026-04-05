@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jessy Nail Studio Nails - Agendamento online de serviços de manicure, pedicure e unhas em gel em Içara, SC">
+    <meta name="keywords" content="nail studio, manicure, pedicure, unhas em gel, nail art, Içara, SC, nails">
+    <meta name="author" content="Jessy Nail Studio Nails">
+    
+    <title>Jessy Nail Studio | Agendamento Online</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <img src="imagens/logo.png" alt="Jessy Nail Studio Logo" class="logo">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#services" class="nav-link">Serviços</a>
+                <a href="#gallery" class="nav-link">Galeria</a>
+                <a href="#values" class="nav-link">Sobre</a>
+                <a href="#booking" class="nav-link nav-cta">Agendador</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-background"></div>
+            <div class="container">
+                <div class="hero-split">
+                    <div class="hero-content">
+                        <div class="hero-welcome">
+                            <span class="welcome-subtitle">BEM-VINDO AO</span>
+                        </div>
+                        <h1 class="hero-title">
+                            Jessy Nail Studio <span class="highlight-nails">
+                        </h1>
+                        <p class="hero-subtitle">
+                            Transformamos suas unhas em verdadeiras obras de arte. Com técnicas modernas e criatividade sem limites, cada detalhe é cuidado com perfeição.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#booking" class="btn btn-primary btn-large">
+                                <i class="fas fa-calendar-check"></i>
+                                Agendador Agora
+                            </a>
+                            <a href="#services" class="btn btn-secondary btn-large">
+                                <i class="fas fa-info-circle"></i>
+                                Conhecer Mais
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image-container">
+                        <img src="imagens/imagem2.png" alt="Trabalho profissional de unhas" class="hero-image">
+                        <div class="hero-overlay">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Galeria de Trabalhos</h2>
+                    <p class="section-subtitle">Confira alguns dos nossos trabalhos mais recentes</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item-new">
+                        <img src="imagens/imagem1.png" alt="Unhas Azuis com Glitter" loading="lazy">
+                        <div class="gallery-overlay-new">
+                            <div class="overlay-content">
+                                <h3>Unhas Azuis com Glitter</h3>
+                                <p>Esmalte azul com detalhe em glitter - Tendência 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item-new">
+                        <img src="IMG_20260404_143544.jpg" alt="Unhas Milky Glazed" loading="lazy">
+                        <div class="gallery-overlay-new">
+                            <div class="overlay-content">
+                                <h3>Unhas Milky Glazed</h3>
+                                <p>Acabamento clean e sofisticado - Glazed Donut Style</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item-new">
+                        <img src="IMG_20260404_143640.jpg" alt="Unhas Francesinha Moderna" loading="lazy">
+                        <div class="gallery-overlay-new">
+                            <div class="overlay-content">
+                                <h3>Francesinha Moderna</h3>
+                                <p>Clássico reinventado com um toque de brilho</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item-new">
+                        <img src="IMG_20260404_143736.jpg" alt="Unhas Rosa Delicada" loading="lazy">
+                        <div class="gallery-overlay-new">
+                            <div class="overlay-content">
+                                <h3>Rosa Delicado com Pedrarias</h3>
+                                <p>Elegância e sofisticação para o dia a dia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item-new">
+                        <img src="IMG_20260404_143830.jpg" alt="Unhas Vermelhas Clássicas" loading="lazy">
+                        <div class="gallery-overlay-new">
+                            <div class="overlay-content">
+                                <h3>Vermelho Clássico</h3>
+                                <p>Sofisticação e elegância atemporal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item-new">
+                        <img src="IMG_20260404_143925.jpg" alt="Unhas com Design Geométrico" loading="lazy">
+                        <div class="gallery-overlay-new">
+                            <div class="overlay-content">
+                                <h3>Design Geométrico</h3>
+                                <p>Modernidade e estilo em cada detalhe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <a href="#booking" class="btn btn-primary btn-large">
+                        <i class="fas fa-palette"></i>
+                        Criar Meu Design
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section id="values" class="values-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nossa Galeria de <span class="gradient-text">Nails</span></h2>
+                    <p class="section-subtitle">O que nos move e nos torna únicos no cuidado das suas unhas</p>
+                </div>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3 class="value-title">Paixão</h3>
+                        <p class="value-description">Amamos o que fazemos e colocamos nosso coração em cada detalhe, garantindo um resultado impecável que supera expectativas.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3 class="value-title">Excelência</h3>
+                        <p class="value-description">Buscamos a perfeição em cada serviço, utilizando produtos de alta qualidade e técnicas inovadoras para garantir sua satisfação.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-hand-sparkles"></i>
+                        </div>
+                        <h3 class="value-title">Cuidado</h3>
+                        <p class="value-description">Priorizamos a saúde e o bem-estar das suas unhas, oferecendo um atendimento personalizado e seguro com produtos de qualidade.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 class="value-title">Inovação</h3>
+                        <p class="value-description">Estamos sempre atualizados com as últimas tendências e tecnologias para oferecer o que há de melhor no universo das unhas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nossos Serviços</h2>
+                    <p class="section-subtitle">Serviços profissionais para realçar sua beleza</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hand-sparkles"></i>
+                        </div>
+                        <h3 class="service-title">Manicure</h3>
+                        <div class="service-list">
+                            <div class="service-item">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="30" data-name="Esmaltação" class="service-checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="service-name">Esmaltação</span>
+                                    <span class="service-price">R$ 30</span>
+                                </label>
+                            </div>
+                            <div class="service-item">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="35" data-name="Cuticagem" class="service-checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="service-name">Cuticagem</span>
+                                    <span class="service-price">R$ 35</span>
+                                </label>
+                            </div>
+                            <div class="service-item">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="60" data-name="Spa das Mãos" class="service-checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="service-name">Spa das Mãos</span>
+                                    <span class="service-price">R$ 60</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shoe-prints"></i>
+                        </div>
+                        <h3 class="service-title">Pedicure</h3>
+                        <div class="service-list">
+                            <div class="service-item">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="35" data-name="Esmaltação Pés" class="service-checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="service-name">Esmaltação Pés</span>
+                                    <span class="service-price">R$ 35</span>
+                                </label>
+                            </div>
+                            <div class="service-item">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="40" data-name="Cuticagem Pés" class="service-checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="service-name">Cuticagem Pés</span>
+                                    <span class="service-price">R$ 40</span>
+                                </label>
+                            </div>
+                            <div class="service-item">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="70" data-name="Spa dos Pés" class="service-checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="service-name">Spa dos Pés</span>
+                                    <span class="service-price">R$ 70</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3 class="service-title">Unhas em Gel</h3>
+                        <div class="service-list">
+                            <div class="service-item">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="120" data-name="Alongamento em Gel" class="service-checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="service-name">Alongamento em Gel</span>
+                                    <span class="service-price">R$ 120</span>
+                                </label>
+                            </div>
+                            <div class="service-item">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="80" data-name="Manutenção de Gel" class="service-checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="service-name">Manutenção de Gel</span>
+                                    <span class="service-price">R$ 80</span>
+                                </label>
+                            </div>
+                            <div class="service-item">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="70" data-name="Banho de Gel" class="service-checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="service-name">Banho de Gel</span>
+                                    <span class="service-price">R$ 70</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="service-title">Nail Art</h3>
+                        <div class="service-list">
+                            <div class="service-item">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="10" data-name="Filha Única / Glitter" class="service-checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="service-name">Filha Única / Glitter</span>
+                                    <span class="service-price">R$ 10+</span>
+                                </label>
+                            </div>
+                            <div class="service-item">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" value="15" data-name="Francesinha / Degradê" class="service-checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="service-name">Francesinha / Degradê</span>
+                                    <span class="service-price">R$ 15+</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Total Display -->
+                <div class="total-section">
+                    <div class="total-card">
+                        <div class="total-info">
+                            <span class="total-label">Total Selecionado:</span>
+                            <span class="total-amount" id="display-total">R$ 0</span>
+                        </div>
+                        <div class="total-services" id="selected-services">
+                            <span class="services-placeholder">Selecione os serviços desejados</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+        <section id="booking" class="booking">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Agende seu Horário</h2>
+                    <p class="section-subtitle">Escolha a melhor data e hora para seu atendimento</p>
+                </div>
+
+                <div class="booking-card">
+                    <form id="bookingForm" class="booking-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date" class="form-label">
+                                    <i class="fas fa-calendar"></i>
+                                    Data preferida
+                                </label>
+                                <input type="date" id="date" name="date" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time" class="form-label">
+                                    <i class="fas fa-clock"></i>
+                                    Horário preferido
+                                </label>
+                                <select id="time" name="time" class="form-select" required>
+                                    <option value="">Selecione um horário</option>
+                                    <option value="08:00">08:00</option>
+                                    <option value="09:00">09:00</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="18:00">18:00</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name" class="form-label">
+                                <i class="fas fa-user"></i>
+                                Seu nome
+                            </label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Digite seu nome completo" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" class="form-label">
+                                <i class="fas fa-phone"></i>
+                                WhatsApp
+                            </label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="(48) 99999-9999" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="notes" class="form-label">
+                                <i class="fas fa-comment"></i>
+                                Observações (opcional)
+                            </label>
+                            <textarea id="notes" name="notes" class="form-textarea" placeholder="Alguma informação adicional ou preferência especial?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full" id="btn-zap">
+                            <i class="fab fa-whatsapp"></i>
+                            Enviar Agendamento via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Entre em Contato</h2>
+                    <p class="section-subtitle">Estamos aguardando sua mensagem!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Telefone</h3>
+                        <p>(48) 99175-0255</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>E-mail</h3>
+                        <p>jessyferreirateixeira@gmail.com</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Localização</h3>
+                        <p>Içara, SC</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="imagens/logo.png" alt="Jessy Nail Studio" class="footer-logo">
+                    <p><strong>Jessy Nail Studio</strong></p>
+                    <p>Beleza e cuidado profissional para suas unhas</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://wa.link/vnc6kr" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://facebook.com" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jessy Nail Studio Nails. Todos os direitos reservados.</p>
+                <p>Desenvolvido com <i class="fas fa-heart"></i> para realçar sua beleza</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
