@@ -132,6 +132,21 @@ Jessy.Nail.Studio/
 3. Ensure image assets are in the correct location
 4. Open `index.html` in your browser
 
+### Development Setup
+For local development, you can use a simple HTTP server:
+
+```bash
+# Using Python
+python -m http.server 8000
+
+# Using Node.js
+npx http-server
+
+# Using PHP
+php -S localhost:8000
+```
+
+Then visit `http://localhost:8000` in your browser.
 
 ## 📱 Usage Guide
 
