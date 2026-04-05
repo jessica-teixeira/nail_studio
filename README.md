@@ -104,19 +104,20 @@ A modern, responsive website for Jessy Nail Studio featuring online appointment 
 - **WhatsApp API**: Direct messaging integration
 
 ## 📁 Project Structure
-
 ```
 Jessy.Nail.Studio/
 ├── index.html          # Main HTML file
 ├── styles.css          # Complete CSS styling
 ├── script.js           # JavaScript functionality
-├── README.md           # This documentation
+├── README.md           # This documentation (fixed)
 ├── LICENSE              # MIT License
-├── assets/             # Static assets (if available)
-│   ├── logo_jessy_nail_studio.jpg
-│   ├── IMG_20260404_142913.jpg
-│   └── IMG_20260404_143544.jpg
-└── .gitignore          # Git ignore file
+├── .gitignore          # Git ignore file
+└── assets/             # Static assets (if available)
+    └── imagens/
+        ├── logo.png
+        ├── imagem1.png
+        ├── imagem2.png
+        └── tabelas_precos_jessy.png
 ```
 
 ## 🚀 Getting Started
@@ -131,21 +132,6 @@ Jessy.Nail.Studio/
 3. Ensure image assets are in the correct location
 4. Open `index.html` in your browser
 
-### Development Setup
-For local development, you can use a simple HTTP server:
-
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js
-npx http-server
-
-# Using PHP
-php -S localhost:8000
-```
-
-Then visit `http://localhost:8000` in your browser.
 
 ## 📱 Usage Guide
 
@@ -203,6 +189,31 @@ this.phoneNumber = "5548991750255"; // Update to your number
 1. Place images in the project directory
 2. Update image paths in `index.html`
 3. Ensure proper alt tags for accessibility
+
+## 🌐 Deployment
+
+### Live Site
+- **Production URL**: https://jessy-nail-studio.vercel.app
+- **Status**: Live and accessible
+- **Last Updated**: 2026
+
+### Static Hosting Options
+- **Vercel**: Current deployment platform (recommended)
+- **Netlify**: Alternative drag and drop deployment
+- **GitHub Pages**: Free static hosting option
+- **Firebase Hosting**: Static site hosting
+
+### Deployment Steps for Vercel
+1. **Connect Repository**: Link Git repository to Vercel
+2. **Build Settings**: Configure build command (if needed)
+3. **Environment Variables**: Set up any required variables
+4. **Deploy**: Automatic deployment on push to main branch
+
+### Domain Configuration
+- **Current Domain**: jessy-nail-studio.vercel.app
+- **Custom Domain**: Can be configured in Vercel dashboard
+- **SSL Certificate**: Automatically provided by Vercel
+- **CDN**: Global content delivery network included
 
 ## 🌐 Browser Compatibility
 
