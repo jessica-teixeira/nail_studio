@@ -303,6 +303,122 @@ body {
     box-shadow: 0 4px 15px rgba(183, 132, 113, 0.3);
 }
 
+/* About Section */
+.about-section {
+    background: var(--white);
+    padding: 5rem 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-text {
+    margin-bottom: 3rem;
+}
+
+.about-intro {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--text-primary);
+    margin-bottom: 2rem;
+}
+
+.about-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 2rem;
+    background: var(--light-pink);
+    border-radius: var(--border-radius-lg);
+    transition: var(--transition-normal);
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.feature-item i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.feature-item h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.feature-item p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: 0;
+}
+
+.about-mission {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-primary);
+    font-style: italic;
+    padding: 2rem;
+    background: var(--secondary-color);
+    border-radius: var(--border-radius-lg);
+    border-left: 4px solid var(--primary-color);
+}
+
+/* Tags Section */
+.tags-section {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+    padding: 5rem 0;
+}
+
+.tags-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tag {
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius-full);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: var(--transition-normal);
+    cursor: pointer;
+}
+
+.tag:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.tag-primary {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.tag-secondary {
+    background: var(--white);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
 /* Values Section */
 .values-section {
     background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
@@ -1060,6 +1176,63 @@ section {
     opacity: 1;
     transform: translateY(0);
 }
+/* License Section */
+.license-section {
+    background: var(--white);
+    padding: 5rem 0;
+}
+
+.license-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.license-card {
+    background: var(--light-pink);
+    border-radius: var(--border-radius-lg);
+    padding: 2.5rem;
+    text-align: center;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-normal);
+    border: 1px solid var(--gray-light);
+    margin-bottom: 2rem;
+}
+
+.license-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+}
+
+.license-icon {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    border-radius: var(--border-radius-full);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+}
+
+.license-icon i {
+    font-size: 1.8rem;
+    color: var(--white);
+}
+
+.license-card h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.license-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: 0;
+}
+
 /* Footer Centralizado */
 .footer {
     background: #1a1a1a;

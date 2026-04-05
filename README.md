@@ -18,11 +18,63 @@ A modern, responsive website for Jessy Nail Studio featuring online appointment 
 - **WhatsApp Integration**: Direct WhatsApp messaging with formatted booking details
 
 ### 🎨 Visual Features
-- **Hero Gallery**: Image gallery with lightbox functionality
+- **Hero Section**: Split layout with neon text overlay and professional imagery
+- **Gallery Section**: Interactive gallery with lightbox functionality showcasing nail designs
+- **Values Section**: Company values with icons and descriptions
+- **Tags Section**: Popular service tags with interactive styling
+- **License Section**: MIT license terms and usage guidelines
 - **Smooth Animations**: Scroll-triggered animations and micro-interactions
 - **Navigation**: Sticky navigation with smooth scrolling
 - **Mobile Menu**: Hamburger menu for mobile devices
-- **Hover Effects**: Interactive elements with engaging hover states
+
+### 🏗️ Website Structure
+```
+├── Header (Navigation + Logo)
+├── Hero Section
+├── About Section
+├── Tags Section  
+├── Gallery Section
+├── Values Section
+├── Services Section
+├── Booking Section
+├── License Section
+└── Footer
+```
+
+### 🎯 Key Sections
+
+#### Hero Section
+- **Welcome Message**: "BEM-VINDO AO Jessy Nail Studio Nails"
+- **Dual CTAs**: "Agendador Agora" and "Conhecer Mais" buttons
+- **Neon Overlay**: Animated "Jessy Nail Studio NAILS" text
+- **Professional Imagery**: High-quality nail photography
+
+#### Gallery Section
+- **Work Showcase**: 6 nail art examples with titles and descriptions
+- **Interactive Lightbox**: Click-to-enlarge functionality
+- **Hover Effects**: Smooth image zoom and overlay text
+- **Service Integration**: "Criar Meu Design" CTA button
+
+#### About Section
+- **Company Story**: Professional introduction to Jessy Nail Studio
+- **Key Features**: Expert Artistry, Premium Quality, Trendy Designs, Hygiene First
+- **Mission Statement**: Focus on confidence, beauty, and customer care
+
+#### Values Section
+- **Core Values**: Paixão, Excelência, Cuidado, Inovação
+- **Card Layout**: Interactive hover effects and animations
+- **Visual Hierarchy**: Icons, titles, and descriptions
+
+#### Services Section
+- **Service Cards**: Manicure, Pedicure, Unhas em Gel, Nail Art
+- **Pricing Display**: Clear pricing for each service
+- **Selection System**: Interactive checkboxes with total calculation
+
+#### Booking System
+- **Comprehensive Form**: Name, email, phone, date, time, services
+- **Validation**: Real-time input validation and error handling
+- **WhatsApp Integration**: Direct message generation with booking details
+- **Professional Design**: Clean form layout with clear CTAs
 
 ### 💅 Services Management
 - **Service Categories**: Organized by manicure, pedicure, gel nails, and nail art
@@ -59,6 +111,7 @@ Jessy.Nail.Studio/
 ├── styles.css          # Complete CSS styling
 ├── script.js           # JavaScript functionality
 ├── README.md           # This documentation
+├── LICENSE              # MIT License
 ├── assets/             # Static assets (if available)
 │   ├── logo_jessy_nail_studio.jpg
 │   ├── IMG_20260404_142913.jpg
