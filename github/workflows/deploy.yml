@@ -2,14 +2,13 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]  # ✅ Branch principal
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Cancela deploys em andamento se um novo push for feito
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -24,7 +23,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1 # Baixa apenas o último commit
+          fetch-depth: 1
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -32,7 +31,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: './'  # ✅ Path correto
 
       - name: Deploy to GitHub Pages
         id: deployment
