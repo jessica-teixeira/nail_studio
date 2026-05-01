@@ -534,7 +534,7 @@ body {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-bottom: 3rem;
     align-items: stretch;
@@ -1115,7 +1115,7 @@ section {
     }
     
     .gallery-item-new {
-        min-height: 200px;
+        min-height: 250px;
     }
 }
 
