@@ -1,0 +1,25 @@
+{
+  "name": "jessy-nail-studio",
+  "version": "1.0.0",
+  "description": "Jessy Nail Studio - Agendamento online de serviços de manicure e pedicure",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -p 3000",
+    "dev": "npx serve -s . -p 3000 -o",
+    "build": "echo 'Build completed - static files ready'",
+    "deploy": "echo 'Deploy to production server'"
+  },
+  "keywords": [
+    "nail",
+    "studio",
+    "manicure",
+    "pedicure",
+    "beauty",
+    "salao"
+  ],
+  "author": "Jessy Nail Studio",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
