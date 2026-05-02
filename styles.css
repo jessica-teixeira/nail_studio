@@ -76,9 +76,11 @@ body {
     margin: 0 auto;
     width: 100%;
 }
-
 .nav-brand .logo {
-    max-width: 100px;
+    max-height: 50px;
+    /* Altere este valor para o tamanho que desejar */
+    width: auto;
+    /* Mantém a proporção da largura */
     height: auto;
     transition: var(--transition-normal);
 }
@@ -976,7 +978,8 @@ section {
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
     flex-wrap: wrap;
