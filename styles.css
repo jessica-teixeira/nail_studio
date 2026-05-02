@@ -77,7 +77,7 @@ body {
     width: 100%;
 }
 .nav-brand .logo {
-    max-height: 85x;
+    max-height: 85px;
     /* Altere este valor para o tamanho que desejar */
     width: auto;
     /* Mantém a proporção da largura */
